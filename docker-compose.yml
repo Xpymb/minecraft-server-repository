@@ -17,6 +17,8 @@ services:
       ENABLE_AUTOPAUSE: "TRUE"
       AUTOPAUSE_TIMEOUT_EST: "10"
       AUTOPAUSE_TIMEOUT_INIT: "10"
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      MAX_TICK_TIME: "-1"
     ports:
       - "25565:25565"
     volumes:
