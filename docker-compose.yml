@@ -12,8 +12,11 @@ services:
       MAX_MEMORY: "8G"
       MEMORY: "8G"
       DIFFICULTY: "hard"
-      SERVER_NAME: "СОСУ ХУЙ 24/7"
-      MOTD: "ВЫ ГОТОВЫ?"
+      MOTD: "СОСУ ХУЙ 24/7"
+      SERVER_NAME: "ВЫ ГОТОВЫ?"
+      ENABLE_AUTOPAUSE: "TRUE"
+      AUTOPAUSE_TIMEOUT_EST: "10"
+      AUTOPAUSE_TIMEOUT_INIT: "10"
     ports:
       - "25565:25565"
     volumes:
