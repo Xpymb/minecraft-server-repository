@@ -24,7 +24,12 @@ services:
       - "25565:25565"
     volumes:
       - data:/data
-      - ./mods:/data/mods
+      - ./config:/data/config
+      - ./defaultconfigs:/data/defaultconfigs
+      - ./icons:/data/icons
+      - ./kubejs:/data/kubejs
+      - ./paintings:/data/paintings
+      - ./icon.png:/data/icon.png
     stdin_open: true
     tty: true
     restart: unless-stopped
