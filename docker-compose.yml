@@ -25,6 +25,11 @@ services:
     volumes:
       - data:/data
       - ./mods:/data/mods
+      - ./config:/data/config
+      - ./defaultconfigs:/data/defaultconfigs
+      - ./kubejs:/data/kubejs
+      - ./server.properties:/data/server.properties
+      - ./server-icon.png:/data/server-icon.png
     stdin_open: true
     tty: true
     restart: unless-stopped
