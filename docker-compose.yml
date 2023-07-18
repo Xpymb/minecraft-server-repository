@@ -6,7 +6,7 @@ services:
     environment:
       EULA: "true"
       ONLINE_MODE: "FALSE"
-      TYPE: "MOHIST"
+      TYPE: "FORGE"
       VERSION: "1.19.2"
       INIT_MEMORY: "8G"
       MAX_MEMORY: "16G"
