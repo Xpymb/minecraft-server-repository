@@ -6,7 +6,7 @@ services:
     environment:
       EULA: "true"
       ONLINE_MODE: "FALSE"
-      TYPE: "FORGE"
+      TYPE: "MOHIST"
       VERSION: "1.19.2"
       INIT_MEMORY: "8G"
       MAX_MEMORY: "16G"
@@ -25,6 +25,7 @@ services:
     volumes:
       - data:/data
       - ./mods:/data/mods
+      - ./plugins:/data/plugins
     stdin_open: true
     tty: true
     restart: unless-stopped
